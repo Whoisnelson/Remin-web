@@ -7,17 +7,17 @@ import Autoplay from "embla-carousel-autoplay";
 
 const images = [
     {
-        src: "/cropped.PNG",
+        src: "/cropped.jpg",
     
     },
     {
         src: "/picsii.jpg"
     },
     {
-        src: "/croppedi.PNG"
+        src: "/croppedi.jpg"
     },
     {
-        src: "/croppedii.PNG"
+        src: "/croppedii.jpg"
     },
     {
         src: "/IMGvii.PNG"
