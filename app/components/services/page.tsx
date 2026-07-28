@@ -85,6 +85,7 @@ export default function Services() {
                     <Image
                         src={image.src}
                     alt=""
+                    priority
                     fill
                     className="object-contain"
                     />
