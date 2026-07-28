@@ -111,7 +111,7 @@ try {
             value={name}
             onChange={(e)=> setName(e.target.value)}
               type="text"
-              placeholder="John Doe"
+              placeholder="Enter your name"
               className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-violet-500"
             />
           </div>
