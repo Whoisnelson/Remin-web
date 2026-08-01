@@ -42,11 +42,10 @@ export default function Nav() {
         
         <nav className={"flex justify-between items-center px-8 py-5 text-[12px] fixed w-full z-99"}>
         {/* logo */}
-        <p className={`${bebas.className} text-[1.1rem] cursor-pointer text-white`}>
               <div className="relative w-[30px] h-[30px]">
             <Image src="/remin_logo.png" fill className="object-contain text-red-500" alt=""/>
         </div>
-        </p>
+        
 
         {/* nav bar */}
         <ul className="xl:flex gap-5 font-bold cursor-pointer text-white hidden">

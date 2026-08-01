@@ -3,7 +3,7 @@ import FeaturesList from "../utils/features-list";
 export default function Features () {
     return (
         <>
-        <section className="w-screen pt-8 pb-5 features">
+        <section className="w-screen pt-3 pb-5 features">
             <div className="flex flex-col items-center text-center pb-20">
             <h2 className={"font-bold text-[30px] text-gray-600 pb-3"}>.Features</h2> 
             <p className="text-[0.6em] lg:max-w-[600] md:text-[0.9em] text-gray-800">Every feature in Remin is designed to solve a real challenge creators face-from finding the right people to collaborate with, to capturing ideas before they're forgotten, and stayinf consistent long enough to grow.</p>
