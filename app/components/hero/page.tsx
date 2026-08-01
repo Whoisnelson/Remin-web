@@ -451,12 +451,6 @@ export default function Hero() {
             </video>
             <div className="absolute inset-0 bg-black/20"></div>
             <div className="z-10 text-white px-2 w-full flex flex-col items-center">
-              <div className="relative w-[100px] h-[100px]">
-                  <Image src="/remin_logo.png" fill className="object-contain text-red-500" alt=""/>
-              </div>
-            <p className={"text-[0.6em] max-w-120 text-center font-extrabold sm:max-w-[280] xl:text-[1.3em] xl:max-w-200 lg:text-[1.3em] lg:max-w-170 md:text-[1.2em] md:max-w-150 para"}>
-                The place where content creators connect, collaborate, share ideas, and stay consistent on their cretive journey.
-            </p>
              <p className="text-[0.6em] pt-7 text-center max-w-[290] sm:max-w-[290] xl:text-[1.3em] xl:max-w-200 lg:text-[1.3em] lg:max-w-190 md:text-[1.2em] md:max-w-150 font-extrabold para">
                Join a community built for creators who want more than just likes and views. Connect with like-minded creators, capture ideas as they come, build consistent creative habits, and grow together
             </p>   
@@ -491,7 +485,7 @@ export default function Hero() {
             <button  className={"rounded-[4px] py-[2px] px-[18px] xl:px-[50px] xl:py-[13px] text-[0.6em] bg-black text-white font-bold sm:px-[25px]"}>
                 PlayStore
             </button> */}
-            <button onClick={()=> setOpen(true)}  className="rounded-[4px] py-[9px] px-[15px] xl:px-[50px] xl:py-[13px] text-[0.6em] text-white xl:font-extrabold bg-purple-600 font-bold sm:px-[25px]">
+            <button onClick={()=> setOpen(true)}  className="rounded-[4px] py-[9px] px-[15px] xl:px-[50px] xl:py-[13px] text-[0.6em] text-white xl:font-extrabold bg-yellow-600 font-bold sm:px-[25px]">
                 Join the Waitlist
             </button>
             </section>

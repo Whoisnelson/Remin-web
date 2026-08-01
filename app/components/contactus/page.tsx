@@ -20,7 +20,7 @@ export default function ContactUs() {
                     </div>
                     {/* socials */}
                 <div>
-                <ul className="text-[0.5em] text-blue-500 lg:text-[1em] flex flex-col gap-1">
+                <ul className="text-[0.5em] text-yellow-600 lg:text-[1em] flex flex-col gap-1">
                     <li><a href="https://instagram.com/remin_app" className="hover:text-gray-600 transition" target="_blank" rel="noopener noreferrer" >Instagram <ArrowUpRight className="inline size-4"/></a></li>
                     {/* <li>YouTube <ArrowUpRight className="inline size-4"/></li>
                     <li>Email <ArrowUpRight className="inline size-4"/></li> */}

@@ -112,7 +112,7 @@ try {
             onChange={(e)=> setName(e.target.value)}
               type="text"
               placeholder="Enter your name"
-              className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-violet-500"
+              className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-yellow-600"
             />
           </div>
 
@@ -126,7 +126,7 @@ try {
             onChange={(e)=> setEmail(e.target.value)}
               type="email"
               placeholder="john@email.com"
-              className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-blue-500"
+              className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-yellow-600"
             />
           </div>
 
@@ -138,7 +138,7 @@ try {
             <select 
             value={creator}
             onChange={(e)=>setCreator(e.target.value)}
-            className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-blue-500">
+            className="mt-2 w-full rounded-lg border border-zinc-700 bg-zinc-900 px-4 py-3 outline-none focus:border-yellow-600">
               <option>YouTube</option>
               <option>TikTok</option>
               <option>Instagram</option>
@@ -160,7 +160,7 @@ try {
           <button
           onClick={handleSubmit}
           disabled={loading}
-          className="w-full rounded-lg bg-blue-500 py-3 font-bold transition hover:bg-blue-900">
+          className="w-full rounded-lg bg-yellow-600 py-3 font-bold transition hover:bg-blue-900">
             {loading ? "Joining" : "Join the Waitlist"} 
           </button>
 

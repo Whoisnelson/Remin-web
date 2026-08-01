@@ -6,6 +6,7 @@ import Menuitems from "../menuitems/page";
 import { Link } from "react-scroll";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
+import Image from 'next/image'
    
         const bebas = Playball({
         subsets: ["latin"],
@@ -42,7 +43,9 @@ export default function Nav() {
         <nav className={"flex justify-between items-center px-8 py-5 text-[12px] fixed w-full z-99"}>
         {/* logo */}
         <p className={`${bebas.className} text-[1.1rem] cursor-pointer text-white`}>
-        <Link to='remin' smooth={true} duration={500} offset={0}>Remin</Link>
+              <div className="relative w-[30px] h-[30px]">
+            <Image src="/remin_logo.png" fill className="object-contain text-red-500" alt=""/>
+        </div>
         </p>
 
         {/* nav bar */}
@@ -54,7 +57,7 @@ export default function Nav() {
         </ul>
 
             
-        <button onClick={()=> setIsOpen((prev)=> !prev)} className="rounded-[5px] py-[6px] px-[30px] text-[0.8em] bg-black text-white font-extrabold flex xl:hidden">
+        <button onClick={()=> setIsOpen((prev)=> !prev)} className="rounded-[5px] py-[6px] px-[30px] text-[0.8em] bg-yellow-600 text-white font-extrabold flex xl:hidden">
             {isOpen ? "Close" :"Menu"}
         </button>
         

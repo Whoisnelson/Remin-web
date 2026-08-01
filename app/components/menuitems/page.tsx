@@ -55,9 +55,8 @@ export default function Menuitems ({ isOpen, onClose }:MenuitemsProps ) {
         <section ref={menuRef} className="fixed left-0 top-0 bg-black  w-screen h-[50%] text-gray-200 z-50 translate-y-[-100%]"> 
         <ul className={" font-extrabold text-[2rem]  px-2 pt-20"}>
             <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="about" smooth={true} duration={500} offset={0} onClick={onClose}>About</Link></li>
-            <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="work" smooth={true} duration={500} offset={0} onClick={onClose}>Work</Link></li>
-            <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="services" smooth={true} duration={500} offset={0} onClick={onClose}>Service</Link></li>
-            <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="Process" smooth={true} duration={500} offset={0} onClick={onClose}>Process</Link></li>
+            <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="features" smooth={true} duration={500} offset={0} onClick={onClose}>Features</Link></li>
+            <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="services" smooth={true} duration={500} offset={0} onClick={onClose}>Services</Link></li>
             <li className={"border-b-[0.5px] border-gray-500 menu-item"}><Link to="contact" smooth={true} duration={500} offset={0} onClick={onClose}>Contact</Link></li>
         </ul>
         </section>
