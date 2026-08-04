@@ -446,8 +446,8 @@ export default function Hero() {
         
         <>
         <section className={"flex flex-col justify-center h-screen w-screen items-center overflow-hidden relative"}>
-            <video autoPlay muted loop className="absolute object-cover w-full h-full">
-                <source src="/heroupdated.mp4"/>
+            <video autoPlay playsInline preload="auto" muted loop className="absolute object-cover w-full h-full">
+                <source src="/heroupdated.mp4" type="video/mp4"/>
             </video>
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="z-10 text-white px-2 w-full flex flex-col items-center">
