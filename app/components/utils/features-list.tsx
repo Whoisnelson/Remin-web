@@ -9,9 +9,9 @@ type TextProps = {
 export default function FeaturesList ({titlei, titleii, image}: TextProps) {
     return (
         <>
-        <section className="pt-3 pb-5 pl-5 flex justify-center items-center w-full">
+        <section className="pt-3 pb-5 px-5 flex justify-center items-center w-full">
              <div className={"flex flex-col items-center gap-3 xl:flex-row xl:items-center md:flex-row md:items-center"}>
-            <div className="h-100 w-78 xl:w-150 md:w-150 rounded-4xl flex items-center justify-center bg-gray-900 relative">
+            <div className="h-100 w-75 xl:w-150 md:w-150 rounded-4xl flex items-center justify-center bg-gray-900 relative">
                 <Image src={image} priority fill alt="" className="object-contain"/>
             </div>
             <div className="xl:max-w-[700] xl:items-start md:items-start md:max-w-[500] flex flex-col items-center">

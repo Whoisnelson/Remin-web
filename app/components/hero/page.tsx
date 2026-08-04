@@ -449,7 +449,7 @@ export default function Hero() {
             <video autoPlay muted loop className="absolute object-cover w-full h-full">
                 <source src="/heroupdated.mp4"/>
             </video>
-            <div className="absolute inset-0 bg-black/20"></div>
+            <div className="absolute inset-0 bg-black/60"></div>
             <div className="z-10 text-white px-2 w-full flex flex-col items-center">
              <p className="text-[0.6em] pt-7 text-center max-w-[290] sm:max-w-[290] xl:text-[1.3em] xl:max-w-200 lg:text-[1.3em] lg:max-w-190 md:text-[1.2em] md:max-w-150 font-extrabold para">
                Join a community built for creators who want more than just likes and views. Connect with like-minded creators, capture ideas as they come, build consistent creative habits, and grow together
